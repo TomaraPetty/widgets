@@ -42,7 +42,7 @@ export default () => {
       {/* <Search /> */}
       <Dropdown
         selected={selected}
-        onSelectChange={setSelected}
+        onSelectedChange={setSelected}
         options={options}
       />
     </div>
